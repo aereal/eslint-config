@@ -1,6 +1,6 @@
 {
   "name": "@aereal/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.1-prerelease.1",
   "author": "aereal <aereal@aereal.org>",
   "main": "index.js",
   "files": [
