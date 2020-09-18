@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./lib/base.js", "./lib/react.js", "./lib/typescript.js"],
+  extends: ["./presets/react-typescript.js"],
 };
