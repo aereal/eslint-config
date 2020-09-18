@@ -2,6 +2,12 @@
   "name": "@aereal/eslint-config",
   "version": "1.0.0",
   "author": "aereal <aereal@aereal.org>",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "presets",
+    "index.js"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.1",
