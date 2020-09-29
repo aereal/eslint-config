@@ -22,4 +22,11 @@ describe("preset", () => {
       "ok.ts": { errors: [], warnings: [] },
     });
   });
+
+  test("react-typescript", async () => {
+    const results = await runESLint("react-typescript");
+    expect(results).toStrictEqual({
+      "ok.tsx": { errors: [], warnings: [] },
+    });
+  });
 });
