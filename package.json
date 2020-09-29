@@ -10,7 +10,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "lint": "eslint **/*.js",
     "test": "jest"
   },
   "peerDependencies": {

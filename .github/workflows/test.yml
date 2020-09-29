@@ -9,6 +9,14 @@ on:
     branches:
       - main
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: lint
+        uses: reviewdog/action-eslint@v1
+        with:
+          eslint_flags: 'test/ lib/ presets/ index.js'
   build:
     strategy:
       matrix:
@@ -34,4 +42,3 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn install --frozen-lockfile
       - run: yarn test
-      - run: yarn lint
