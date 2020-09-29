@@ -10,7 +10,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "test": "jest"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.2.0",
@@ -42,5 +43,21 @@
     "@types/jest": "^26.0.14",
     "jest": "^26.4.2",
     "ts-jest": "^26.4.0"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/test"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
   }
 }
