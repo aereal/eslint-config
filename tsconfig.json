@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["ESNext"],
+    "module": "commonjs",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "exclude": ["cdk.out"]
+}
