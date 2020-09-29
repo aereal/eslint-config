@@ -3,6 +3,7 @@
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "esModuleInterop": true,
+    "jsx": "react",
     "lib": ["ESNext"],
     "module": "commonjs",
     "noEmit": true,
