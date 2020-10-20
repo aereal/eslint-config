@@ -60,7 +60,7 @@ jobs:
       - uses: actions/github-script@v3
         with:
           script: |
-            if (context.payload.pull_request.user.login !== 'renovate') {
+            if (context.payload.pull_request.user.login !== 'renovate[bot]') {
               console.log(`not from renovate`);
               return;
             }
