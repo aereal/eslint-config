@@ -13,6 +13,7 @@ describe("preset", () => {
         ],
         warnings: [],
       },
+      "deprecated.ts": { errors: [], warnings: ["deprecation/deprecation"] },
     });
   });
 
