@@ -54,6 +54,9 @@ jobs:
     needs: ci
     if: github.event_name == 'pull_request'
     steps:
+      - name: dump payload
+        run: |
+          jq . ${{ github.event_path }}
       - uses: actions/github-script@v3
         with:
           script: |
