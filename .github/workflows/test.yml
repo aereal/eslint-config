@@ -57,7 +57,7 @@ jobs:
       - name: dump payload
         run: |
           jq . ${{ github.event_path }}
-      - uses: actions/github-script@v3
+      - uses: actions/github-script@v4
         with:
           script: |
             if (context.payload.pull_request.user.login !== 'renovate[bot]') {
