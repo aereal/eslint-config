@@ -27,7 +27,7 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
-    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/git": "^9.0.1",
     "@types/eslint": "^7.2.13",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^16.9.13",
@@ -45,7 +45,7 @@
     "prettier": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "semantic-release": "^17.2.1",
+    "semantic-release": "^17.4.7",
     "typescript": "^4.1.5"
   },
   "dependencies": {
